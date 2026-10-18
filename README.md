@@ -1,21 +1,16 @@
 # Maple Quarry: Monorepo · Vercel (protected)
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on **Vercel**, with preview links **behind Vercel's login (Standard Protection)**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
-
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| _app one_ | `apps/<app>` | _not deployed_ | yes |
-| _app two_ | `apps/<app>` | _not deployed_ | yes |
-| _app three_ | `apps/<app>` | _not deployed_ | yes |
+| Lotus | `apps/lotus-28z` | https://maple-quarry-t99l-lotus-28z.vercel.app | yes |
+| Reef | `apps/reef-fen` | https://maple-quarry-t99l-reef-fen.vercel.app | yes |
+| Pebble | `apps/pebble-ig9` | https://maple-quarry-t99l-pebble-ig9.vercel.app | yes |
 
 ## Names
 
