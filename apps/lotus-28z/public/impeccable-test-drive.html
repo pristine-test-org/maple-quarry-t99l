@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotus test drive</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; background: #ffffff; color: #1c2b22; }
+      header { padding: 16px 24px; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      .small-link { font-size: 10px; color: #2f7d4f; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 { font-size: 40px; margin: 24px; background: linear-gradient(90deg, #ff3d9a, #2f7d4f); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      /* Intentional, for Impeccable's test drive: body text flush with the viewport edge, no background. */
+      .edge { margin: 0; padding: 0; max-width: none; }
+      /* Intentional, for Impeccable's test drive: low-contrast text, light grey on white. */
+      .muted-note { margin: 24px; color: #d0d0d0; }
+      /* Intentional, for Impeccable's test drive: a layout property in a transition. */
+      .bar { height: 12px; width: 40%; margin: 24px; background: #2f7d4f; transition: width 0.3s; }
+      .bar:hover { width: 80%; }
+    </style>
+  </head>
+  <body>
+    <header><a class="small-link" href="/">Back to Lotus</a></header>
+    <main>
+      <h1>Lotus test drive</h1>
+      <p class="edge">This page only exists so Impeccable can review a change to Lotus: a heading, some copy, and a few elements to look at.</p>
+      <p class="muted-note">Nothing here needs to be merged, and the shared list stays on the home page.</p>
+      <div class="bar"></div>
+    </main>
+  </body>
+</html>
